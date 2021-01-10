@@ -1,6 +1,6 @@
 # Change these
 # server '67.205.174.87', port: 22, roles: [:web, :app, :db], primary: true
-server '159.203.96.20', port: 22, roles: [:web, :app, :db], primary: true
+server '161.35.142.129', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:YairFernando67/fastfood.git'
 set :application,     'fastfood'
