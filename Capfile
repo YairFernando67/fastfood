@@ -7,6 +7,7 @@ require "capistrano/rvm"
 require "capistrano/bundler"
 require 'capistrano/rails'
 require 'capistrano/puma'
+require 'capistrano/rails/migrations'
 # cap puma:monit:config              # Config Puma monit-service
 # cap puma:monit:monitor             # Monitor Puma monit-service
 # cap puma:monit:restart             # Restart Puma monit-service
